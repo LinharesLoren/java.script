@@ -1,0 +1,13 @@
+let nome = 'Loren';
+let idade = 17;
+let estaAprovado = true;
+let sobrenome = undefined;
+
+let pessoa = { 
+    nome: 'Loren',
+    idade: 17,
+    estaAprovado: true,
+    sobrenome: 'Linhares'
+};
+
+console.log(pessoa);

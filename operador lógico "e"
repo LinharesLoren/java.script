@@ -1,0 +1,11 @@
+//operadores lógicos(são usados para tomar decisões com base em condições múltiplas)
+// operador lógico 'e" (&&)
+//retorna true se os dois operandos forem true
+//console.log(false && true);
+//console.log(true && true);
+
+let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = true;
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+
+console.log(podeAplicar);

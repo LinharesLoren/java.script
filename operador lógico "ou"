@@ -1,0 +1,9 @@
+//operadores lógicos(são usados para tomar decisões com base em condições múltiplas)
+// operador lógico ou (||)
+//retornar true se um dos operandos forem true
+
+let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = true;
+let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
+
+console.log(podeAplicar);

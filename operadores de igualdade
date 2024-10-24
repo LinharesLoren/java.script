@@ -1,0 +1,9 @@
+//operadores de igualdade 
+//A igualdade estrita (===) em JavaScript compara valores e tipos exatamente, enquanto a igualdade solta (==) pode converter tipos antes de comparar. Por exemplo, 0 == '0' é verdadeiro, mas 0 === '0' é falso. Em resumo, === é mais rigoroso que ==.
+// igualdade estrita 
+console.log( 1 === 1 );
+console.log('1' === 1 );
+
+//igualdade solta
+console.log ( 1 == 1 );
+console.log ('1' == 1 );

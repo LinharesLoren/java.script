@@ -1,0 +1,15 @@
+//operadores lógicos(são usados para tomar decisões com base em condições múltiplas)
+// operador lógico  NOT (!)
+//FAZER NEGAÇÃO
+
+let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = false;
+let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
+
+console.log('pode aplicar:', podeAplicar);
+
+//NOT
+
+let candidatoRecusado = !podeAplicar;
+
+console.log('Candidato Recusado', candidatoRecusado);

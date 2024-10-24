@@ -1,0 +1,6 @@
+//operadores de atribuição
+let valorTecGamer = 100;
+//valorTecGamer = valorTecGamer + valorTecGamer;
+//valorTecGamer = valorTecGamer - valorTecGamer;
+valorTecGamer -= valorTecGamer;
+console.log(valorTecGamer);

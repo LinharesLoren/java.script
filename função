@@ -1,0 +1,20 @@
+//Função(Uma função em JavaScript é uma máquina que recebe parâmetros, processa e retorna resultados, ajudando a organizar e reutilizar o código.)
+// Verbo + substantivo
+let corSite = 'Azul'
+function resetaCor(cor, tonalidade){
+    corSite = cor + tonalidade;
+};
+
+console.log(corSite);
+resetaCor("verde ", "claro");
+console.log(corSite);
+
+ exemplo 2
+let nomeAluno = 'Milleny'
+function alteraNome(nome, sobrenome){
+    nomeAluno = nome + sobrenome;
+};
+
+console.log(nomeAluno);
+alteraNome("Maria", " Martyres");
+console.log(nomeAluno);

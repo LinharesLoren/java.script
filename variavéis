@@ -1,0 +1,5 @@
+let nome = 'Loren'; //string literal (conjunto de letras, números, caracetres especiais)
+let idade = 25; //number literal(números)
+let estaAprovado = true; //boolean(ajuda a construir regras, se a senha estiver certa ou não por exemplo)
+let sobrenome = undefined ; //Undefined(sem definição)(pouco usado)
+let corSelecionada = null //Redefinir um valor(por exeplo a pessoa escolher uma cor e depois se outra pessoa entrar no sistema de novo, ele apaga o campo pra pessoa escolher de novo)

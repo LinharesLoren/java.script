@@ -1,0 +1,5 @@
+//operador ternário(fazer comparação sem "if")
+// tem um cliente, se ele tiver mais de  100 pontos, ele é premium,  se não é comum
+let pontos = 200;
+let tipo = pontos > 100 ? 'premium': 'comum'
+console.log(tipo);

@@ -1,0 +1,7 @@
+// Arrays (conjunto de dados que pode ser acessado por um índice; índice é uma posição exata onde se encontra a informação no conjunto de infromação)
+
+let familia = [true,45,'loren',17];
+console.log(familia.length);
+console.log(familia[0]);
+let nomeDoColega = ['Martyes',17,'colombo']
+console.log(nomeDoColega[1])

@@ -1,0 +1,16 @@
+/5. For...of
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+for(let cor of cores){
+   console.log(cor);
+}
+
+const numeros = [9, 10, 20,];
+for(let numero of numeros){
+   console.log(numero);
+}
+
+const nomes = ['Martyres', 'Linhares', 'Rodrigues', 'Vargas', 'Padilha']
+for(let nome of nomes){
+   console.log(nome);
+}

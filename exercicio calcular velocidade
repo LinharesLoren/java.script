@@ -1,0 +1,20 @@
+//velocidade máxima de até 70 
+//A cada 5 km acima do limite você ganha um ponto na carteira
+//Math.Floor()
+//Caso os pontos sejam maior que 12 -> "Carteira Suspendida"
+verificarVelocidade(130);
+
+function verificarVelocidade(velocidade){
+   const velocidadeMaxima = 70;
+   const kmPorPonto = 5;
+   if(velocidade <= velocidadeMaxima  )
+      console.log('Dentro do limite!');
+   else{
+      const pontos = Math.floor(((velocidade - velocidadeMaxima)/ kmPorPonto));
+      if(pontos >= 12)
+         console.log('Carteira Suspensa!');
+      else 
+         console.log('Pontos', pontos);
+
+   }
+}

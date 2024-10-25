@@ -1,0 +1,16 @@
+//4. For...In
+
+const pessoa = {
+   nome: 'Loren',
+   idade: 17
+};
+//chave = key-value (chave e valor)
+for(let chave in pessoa) {
+   console.log(chave,pessoa['nome']);
+}
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+
+for(let indice in cores) {
+   console.log(indice, cores[indice])
+}
